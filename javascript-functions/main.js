@@ -23,7 +23,7 @@ console.log(
 );
 
 function getLastElement(array) {
-  const lastElement = array[3];
+  const lastElement = array[array.length - 1];
   return lastElement;
 }
 console.log(
