@@ -22,6 +22,7 @@ input {
   color: #a7a7a7;
   border-radius: 5px;
   border-color: #bdc0bf;
+  border: 1px solid #bdc0bf;
 }
 
 label {
@@ -47,7 +48,7 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 80px;
-  margin-top: -11px;
+  margin-top: 4px;
   margin-left: 320px;
 }
 
