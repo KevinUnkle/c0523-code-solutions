@@ -1,0 +1,41 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fourth {
+  width: calc(100% - 4);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.column-half {
+  width: calc(50%);
+}
+
+#donkey {
+  width: calc(80%);
+}
+
+img {
+  width: 100%;
+}
+
+div {
+  width: 100%;
+}
+
+p,
+h2 {
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+}
