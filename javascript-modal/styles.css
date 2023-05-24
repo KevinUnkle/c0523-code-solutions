@@ -1,0 +1,71 @@
+.background {
+  background-color: #323232;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.blueButton {
+  width: 175px;
+  height: 45px;
+  background-color: #4a4ae9;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  font-size: 20px;
+}
+
+.darkButton {
+  background-color: #110f2e;
+}
+
+.noButton {
+  width: 100px;
+  height: 45px;
+  background-color: #eb5d5d;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  border-style: none;
+}
+
+.modal {
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  display: flex;
+}
+
+.hidden {
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  display: none;
+}
+
+.hiddenContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
