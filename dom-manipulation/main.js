@@ -1,14 +1,12 @@
 let totalClicks = 0;
 const $hotButton = document.querySelector('.hot-button');
-console.log($hotButton);
 
 const $clickCount = document.querySelector('.click-count');
-console.log($clickCount);
 
 $hotButton.addEventListener('click', function () {
   totalClicks++;
   $clickCount.textContent = 'Clicks:' + totalClicks;
-  console.log($clickCount);
+
   if (totalClicks < 4) {
     $hotButton.className = 'hot-button cold';
   } else if (totalClicks < 7) {
