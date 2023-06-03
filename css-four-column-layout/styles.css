@@ -2,34 +2,8 @@ body {
   font-family: Barlow, sans-serif;
 }
 
-h3 {
-  display: flex;
-  margin-left: 95px;
-  margin-right: 95px;
-}
-
-p {
-  display: flex;
-  margin-left: 75px;
-  margin-right: 75px;
-  font-size: 12px;
-}
-
-.phones {
-  display: flex;
-  justify-items: center;
-  width: 300px;
-}
-
 .container {
-  display: flex;
   width: 100%;
-  flex-direction: column;
-}
-
-.column-full {
-  display: flex;
-  justify-content: space-between;
 }
 
 .row {
@@ -37,10 +11,27 @@ p {
   justify-content: center;
 }
 
-.icons {
+.column-full {
   display: flex;
-  margin-left: 110px;
-  margin-right: 110px;
-  width: 80px;
-  height: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 18px;
+}
+
+.icons {
+  width: 100px;
+}
+
+h3 {
+  font-weight: bolder;
 }
