@@ -1,0 +1,46 @@
+body {
+  font-family: Barlow, sans-serif;
+}
+
+h3 {
+  display: flex;
+  margin-left: 95px;
+  margin-right: 95px;
+}
+
+p {
+  display: flex;
+  margin-left: 75px;
+  margin-right: 75px;
+  font-size: 12px;
+}
+
+.phones {
+  display: flex;
+  justify-items: center;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.column-full {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 110px;
+  width: 80px;
+  height: 80px;
+}
