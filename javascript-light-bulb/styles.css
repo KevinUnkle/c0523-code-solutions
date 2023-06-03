@@ -1,0 +1,51 @@
+.yellowButton {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border: none;
+  background-color: #faea84;
+}
+
+.yellowButtonOff {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border: none;
+  background-color: grey;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fef9f1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.darkButton {
+  background-color: #252525;
+  box-shadow: 0 -20px 0 0 black;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border: none;
+}
+
+.containerDark {
+  background-color: #0c0c0c;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+}
