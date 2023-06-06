@@ -1,0 +1,48 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.column-full {
+  height: 50%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+p,
+span {
+  font-size: 12px;
+}
+
+p {
+  font-weight: 700;
+}
+
+span {
+  color: lightgray;
+  font-weight: 500;
+}
+
+ins {
+  background-color: #fff2e7;
+  text-decoration: none;
+}
