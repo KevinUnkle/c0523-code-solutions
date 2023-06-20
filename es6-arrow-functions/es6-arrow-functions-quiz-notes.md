@@ -12,11 +12,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   By adding parentheses around the entire body.
 - In the expression
   `js
-    foo(() => 42);
-    `
-
+  foo(() => 42);
   - Identify the arrow function
-    function foo () {
+    function () {
     return 42
     }
   - How many arguments does the arrow function take?
@@ -24,9 +22,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   - What value does it return?
     42
   - How many arguments are passed to the function `foo`?
-
+    1
   - What type of argument is passed to the function `foo`?
-
+    A function
 - In the expression
   `` js
     bar((y) => {
@@ -35,16 +33,19 @@ After completing this exercise, you should be able to discuss or answer the foll
      `` - Identify the arrow function
   function bar (y) {
   console.log(`4y = ${4 * y}`);
-  } - How many arguments does the arrow function take?
-  One - y - What value does it return?
-
-      - How many arguments are passed to the function `bar`?
-
-      - What type of argument is passed to the function `bar`?
-
-      - When does the arrow function's code get executed?
-
+  }
+  - How many arguments does the arrow function take?
+    One
+    What value does it return?
+    `4y = ${4 * y}`
+  - How many arguments are passed to the function `bar`?
+    one
+  - What type of argument is passed to the function `bar`?
+    a function
+  - When does the arrow function's code get executed?
+    In the console log statement.
 - How does the value of `this` differ between standard functions and arrow functions?
+  The value of this is determined by the surrounding scope (lexical environment) in an arrow function,
 
 ## Notes
 
